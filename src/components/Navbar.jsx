@@ -1,13 +1,12 @@
-import React from 'react'
-import logo from "../assets/logo.png"
+import React from "react";
+import "../index.css";
+import airbnb from "../assets/airbnb-logo.png";
 function Navbar() {
   return (
-    <div>
-      <nav>
-        <img src={logo} alt="AirBnb Logo" className= "nav-logo"/>
-      </nav>
-    </div>
-  )
+    <nav>
+      <img src={airbnb} />
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
